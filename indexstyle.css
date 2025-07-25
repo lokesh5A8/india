@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header h1{
+    font-size: 72px;
+    color: transparent;
+}
+
+header a{
+    text-decoration: none;
+    color: transparent;
+    font-size: 27px;
+}
+#second{
+    background-image: url(firstimg.jpg);
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 430px;
+}
+#second h1{
+    color: black;
+    font-size: 100px;
+}
+#second p{
+    color: black;
+    font-size: 30px;
+}
+#second button{
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#third{
+    background-image: url(secondimg.jpg);
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 430px;
+}
+#third h1{
+    color: white;
+    font-size: 100px;
+}
+#third p{
+    color: white;
+    font-size: 30px;
+}
+#third button{
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#fourth{
+    background-image: url(thirdimg.webp);
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 430px;
+}
+#fourth h1{
+    color: white;
+    font-size: 100px;
+}
+#fourth p{
+    color: white;
+    font-size: 30px;
+}
+#fourth button{
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#second button:hover{
+    background-color: white;
+    color: black;
+    width: 200px;
+}
+#third button:hover{
+    background-color: white;
+    color: black;
+    width: 200px;
+}
+#fourth button:hover{
+    background-color: white;
+    color: black;
+    width: 200px;
+}
