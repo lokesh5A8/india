@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{
+    font-size: 72px;
+    color: transparent;
+}
+
+header a{
+    text-decoration: none;
+    color: transparent;
+    font-size: 27px;
+}
+
+
+#first {
+    height: 100vh;
+    width: 100%;
+    background-image: url('rocket.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#first h1 {
+    background: linear-gradient(to right, #ffffff, #ffd700, #ff8c00, #ff4500, #ff0000, #800000, #ff8c00);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 120px;
+    text-align: center;
+}
+
+
+.content-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    gap: 40px;
+}
+
+.text-left {
+    flex: 1;
+}
+
+.text-left h2 {
+    font-size: 2.5rem;
+    color: #ff4500;
+    margin-bottom: 15px;
+}
+
+.text-left p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.image-right {
+    flex: 1;
+    text-align: right;
+}
+
+.image-right img {
+    max-width: 90%;
+    border-radius: 10px;
+    
+}
+
+/* Alternate background colors */
+.content-block:nth-child(even) {
+    background-color: #f9f9f9;
+}
